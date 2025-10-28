@@ -38,4 +38,30 @@ while puzzle != goal:
     if puzzle == goal:
         print(" Congratulations! You solved the puzzle!")
         break
+#output
+   # %runfile 'C:/Users/USER/.spyder-py3/8 puzzle.py' --wdir
+    #Initial Puzzle:
+    1 2 3 
+    4 _ 6 
+    7 5 8 
+
+    #Enter move (up/down/left/right): right
+    1 2 3 
+    4 6 _ 
+    7 5 8 
+
+    #Enter move (up/down/left/right): left
+    1 2 3 
+    4 _ 6 
+    7 5 8 
+
+    #Enter move (up/down/left/right): up
+    1 _ 3 
+    4 2 6 
+    7 5 8 
+
+    #Enter move (up/down/left/right): down
+    1 2 3 
+    4 _ 6 
+    7 5 8 
 
